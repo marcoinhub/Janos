@@ -1,0 +1,292 @@
+{
+  "keys": "/learning/myApp/config/config.default.js",
+  "middleware": "/learning/myApp/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/learning/myApp/config/config.default.js",
+    "mapping": {
+      ".html": "/learning/myApp/config/config.default.js"
+    },
+    "root": "/learning/myApp/node_modules/egg-view/config/config.default.js",
+    "cache": "/learning/myApp/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/learning/myApp/node_modules/egg-view/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/learning/myApp/node_modules/egg-session/config/config.default.js",
+    "key": "/learning/myApp/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/learning/myApp/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/learning/myApp/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "useSession": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "headerName": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "queryName": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "value": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "value": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "value": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "policy": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/learning/myApp/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/learning/myApp/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/learning/myApp/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/learning/myApp/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/learning/myApp/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/learning/myApp/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/learning/myApp/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/learning/myApp/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/learning/myApp/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/learning/myApp/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/learning/myApp/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/learning/myApp/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/learning/myApp/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/learning/myApp/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/learning/myApp/node_modules/egg-watcher/config/config.default.js",
+      "development": "/learning/myApp/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/learning/myApp/node_modules/egg-schedule/config/config.default.js",
+      "file": "/learning/myApp/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/learning/myApp/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "files": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/learning/myApp/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/learning/myApp/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/learning/myApp/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/learning/myApp/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/learning/myApp/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/learning/myApp/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/learning/myApp/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/learning/myApp/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/learning/myApp/node_modules/egg-static/config/config.default.js",
+    "dir": "/learning/myApp/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/learning/myApp/node_modules/egg-static/config/config.default.js",
+    "preload": "/learning/myApp/node_modules/egg-static/config/config.default.js",
+    "buffer": "/learning/myApp/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/learning/myApp/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/learning/myApp/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/learning/myApp/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/learning/myApp/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/learning/myApp/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/learning/myApp/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "name": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "proxy": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "version": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "description": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "private": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "autod-egg": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "egg-bin": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "egg-ci": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "egg-mock": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "eslint": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "stop": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "dev": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "debug": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "test": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "test-local": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "cov": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "lint": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "ci": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "autod": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "url": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "author": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "license": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "HOME": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "rundir": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "notFound": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "sitefile": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "middlewares": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "httpClient": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "encoding": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "formLimit": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "strict": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "depth": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/learning/myApp/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "encoding": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "env": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "level": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "outputJSON": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "buffer": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "appLogName": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "coreLogName": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "agentLogName": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "errorLogName": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/learning/myApp/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "maxSockets": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/learning/myApp/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "maxSockets": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/learning/myApp/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "logging": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/learning/myApp/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "port": "/learning/myApp/node_modules/egg/config/config.default.js",
+      "hostname": "/learning/myApp/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/learning/myApp/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/learning/myApp/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/learning/myApp/node_modules/egg/config/config.default.js"
+}
